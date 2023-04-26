@@ -1,0 +1,15 @@
+
+yum install java
+cd /opt
+ wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.tar.gz
+ls
+tar -xvzf apache-tomcat-9.0.74.tar.gz
+ls
+ rm -r apache-tomcat-9.0.74.tar.gz
+ls
+ cd apache-tomcat-9.0.74/
+ls
+ll
+cd bin/
+ll
+./startup.sh
